@@ -3,7 +3,7 @@ import Nav from "../../components/nav.imba"
 export default tag NestedPage
 	<self>
 		<Nav>
-		<div[bgc:green5]>
+		<div[bgc:white]>
 			<h1[c:red4]> "This is a nested route"
 			<ul>
 				<li> "Nested route via a subfolder"
