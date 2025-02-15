@@ -3,9 +3,10 @@ import Nav from "../../components/nav.imba"
 import '../../components/fonts.css'
 
 export default tag NestedPage
-	# try title prop
-	title\string = "Nested page"
+	prop title\string = "Nested - Chaitanya Prashant"
 	<self>
+		<title> title
+		<meta name="author" content="Chaitanya" />
 		<Nav>
 		<div[bgc:white]>
 			<h1[c:red4 ff:"Geist Mono", monospace]> "This is a nested route"
@@ -13,6 +14,7 @@ export default tag NestedPage
 				<li> "Nested route via a subfolder"
 				<li> "pages/your-folder/page.html"
 			<CounterNew>
+
 
 tag CounterNew
 	prop count = 0

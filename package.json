@@ -6,6 +6,7 @@
   "scripts": {
     "build": "imba build.imba",
     "serve": "browser-sync start --server 'dist' --files 'dist'",
+    "serve:simple": "http-server dist",
     "dev:build": "nodemon --watch pages --watch src --ext imba --exec \"npm run build\"",
     "dev": "concurrently \"npm run dev:build\" \"npm run serve\""
   },

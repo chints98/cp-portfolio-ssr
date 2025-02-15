@@ -1,7 +1,11 @@
 import Nav from "../components/nav.imba"
+import '../components/fonts.css'
 
 export default tag HomePage
+	prop title\string = "Chaitanya Prashant"
 	<self>
+		<head>
+			<title> title
 		<Nav>
 		<h1 [ff:mono c:blue]> "Welcome to my home page"
 		<Counter>

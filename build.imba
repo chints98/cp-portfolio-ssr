@@ -3,13 +3,14 @@ const childProcess = require("child_process")
 const exec = require("util").promisify(childProcess.exec)
 
 const pages = import.meta.glob("./pages/**/*.imba", {eager: true})
-
-# This function defines an html page layout, it accepts a function which
+# This function defines an html page layout, and the head style/script tags. it accepts a function which
 # returns the page content (usually a single custom tag)
 export def layout pageContent, stylesheet, javascript
+	# console.log pageContent()
 	<html lang="en">
 		<head>
-			<title> "Cool app"
+			# title and meta tags - TODO (add on a page by page basis, feeding from an exported prop? not a priority)
+			<title> "Chaitanya Prashant"
 			<style src=stylesheet>
 			<script type="module" src=javascript>
 		<body>
@@ -79,6 +80,8 @@ def buildPages pages = []
 const pageList = Object.keys(pages).map do(key)
 	const filename = key.replace("./pages/", "").replace(".imba", ".html")
 	const tagInstance = pages[key].default
+
+	console.log(filename)
 	return {filename, tagInstance}
 
 buildPages(pageList)
