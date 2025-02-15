@@ -85,11 +85,9 @@ def writeSSRPage page, filename
 	if await fs.pathExists(directory)
 		# run updateHTMLTitle function 
 		let HTMLStr = updateHTMLTitle String(page), filename
-		console.log "Cleaned up / processed title"
-		console.log HTMLStr
-		fs.outputFile fullPath, String(page)
-		console.log "File: {filename}"
-		console.log String(page)
+		# console.log "Cleaned up / processed HTML"
+		# console.log HTMLStr
+		fs.outputFile fullPath, HTMLStr
 		return fullPath
 
 # given pages in the form {filename: "index.html", tagInstance: <HomePage>}, build them and write them
