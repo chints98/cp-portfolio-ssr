@@ -1,6 +1,7 @@
 const fs = require("fs-extra")
 const childProcess = require("child_process")
 const exec = require("util").promisify(childProcess.exec)
+const cheerio = require("cheerio")
 
 const pages = import.meta.glob("./pages/**/*.imba", {eager: true})
 # This function defines an html page layout, and the head style/script tags. it accepts a function which
@@ -58,6 +59,23 @@ def assemblePageInLayout page, stylesheetPath, javascriptPath
 	# use the CSS file to build the page content layout
 	return layout((do page), stylesheetPath, javascriptPath)
 
+# Future title / etc. would probably intercept the 'string(page) result, modify it, and then write to file.
+
+# TitleMap helper
+const titleMap = {
+	"index.html": "Chaitanya Prashant",
+	"about.html": "Chaitanya Prashant - About",
+	"nested/nested.html": "Chaitanya Prashant - Nested"
+}
+
+
+# update title in html. Similarly, you can write an overall 'update html meta' which does the processing work when writing to SSR.
+def updateHTMLTitle string, path
+	let newTitle = titleMap[path]
+	if string.match(/<title>.*?<\/title>/i)
+		return string.replace(/<title>.*?<\/title>/i, `<title>{newTitle}</title>`)
+
+
 # SSR a page tag and write it to a file
 def writeSSRPage page, filename
 	console.log 'writing ssr page'
@@ -65,7 +83,13 @@ def writeSSRPage page, filename
 	const directory = "{__dirname}/dist"
 	const fullPath = "{directory}/{filename}"
 	if await fs.pathExists(directory)
+		# run updateHTMLTitle function 
+		let HTMLStr = updateHTMLTitle String(page), filename
+		console.log "Cleaned up / processed title"
+		console.log HTMLStr
 		fs.outputFile fullPath, String(page)
+		console.log "File: {filename}"
+		console.log String(page)
 		return fullPath
 
 # given pages in the form {filename: "index.html", tagInstance: <HomePage>}, build them and write them
@@ -85,3 +109,5 @@ const pageList = Object.keys(pages).map do(key)
 	return {filename, tagInstance}
 
 buildPages(pageList)
+
+
