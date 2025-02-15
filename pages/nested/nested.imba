@@ -3,6 +3,8 @@ import Nav from "../../components/nav.imba"
 import '../../components/fonts.css'
 
 export default tag NestedPage
+	# try title prop
+	title\string = "Nested page"
 	<self>
 		<Nav>
 		<div[bgc:white]>

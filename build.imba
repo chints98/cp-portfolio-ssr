@@ -9,7 +9,7 @@ const pages = import.meta.glob("./pages/**/*.imba", {eager: true})
 export def layout pageContent, stylesheet, javascript
 	<html lang="en">
 		<head>
-			<title> "Cool App"
+			<title> "Cool app"
 			<style src=stylesheet>
 			<script type="module" src=javascript>
 		<body>
@@ -75,7 +75,6 @@ def buildPages pages = []
 		console.log "Building page: {page.filename}"
 		const pageInLayout = assemblePageInLayout(page.tagInstance, stylesheetPath, javascriptPath)
 		writeSSRPage(pageInLayout, page.filename)
-
 
 const pageList = Object.keys(pages).map do(key)
 	const filename = key.replace("./pages/", "").replace(".imba", ".html")
