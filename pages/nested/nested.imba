@@ -5,8 +5,6 @@ import '../../components/fonts.css'
 export default tag NestedPage
 	prop title\string = "Nested - Chaitanya Prashant"
 	<self>
-		<title> title
-		<meta name="author" content="Chaitanya" />
 		<Nav>
 		<div[bgc:white]>
 			<h1[c:red4 ff:"Geist Mono", monospace]> "This is a nested route"

@@ -12,6 +12,8 @@ export def layout pageContent, stylesheet, javascript
 		<head>
 			# title and meta tags - TODO (add on a page by page basis, feeding from an exported prop? not a priority)
 			<title> "Chaitanya Prashant"
+			<meta name="author" content="Chaitanya Prashant" />
+			<meta name="description" content="Chaitanya Prashant's product and UX design portfolio." />
 			<style src=stylesheet>
 			<script type="module" src=javascript>
 		<body>
@@ -70,6 +72,7 @@ const titleMap = {
 
 
 # update title in html. Similarly, you can write an overall 'update html meta' which does the processing work when writing to SSR.
+# This is a helper method that takes in an html string, and updates the title according to the sourcemap titleMap. Make it more general by also taking in another param (map). 
 def updateHTMLTitle string, path
 	let newTitle = titleMap[path]
 	if string.match(/<title>.*?<\/title>/i)
