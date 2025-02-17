@@ -68,6 +68,7 @@ const titleMap = {
 	"index.html": "Chaitanya Prashant",
 	"about.html": "Chaitanya Prashant - About",
 	"nested/nested.html": "Chaitanya Prashant - Nested"
+	"case/pagerduty.html": " Chaitanya Prashant - Pagerduty teams internship"
 }
 
 

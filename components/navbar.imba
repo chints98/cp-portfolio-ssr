@@ -2,10 +2,10 @@
 # very naively detecting what is the active tab by feeding from the page, probably a more elegant way to write this?
 export default tag Navbar 
 	activeTab\string = ""
+	css a fs:md fw:400 c:warm5 td:none ff:"Geist Mono", monospace
+		c@hover:hue8 td@hover:underline e:400ms
+	css .active c:hue8 td:underline fw:600
 	<self>
-		css a fs:md fw:400 c:warm5 td:none ff:"Geist Mono", monospace
-			c@hover:hue8 td@hover:underline e:400ms
-		css .active c:hue8 td:underline fw:600
 		# logo container
 		# navigation links
 		<div[d:flex miw:348px mih:80px bg:white/70 px:2 jc:space-around ai:center rd:xl bd:1px solid rgba(255,255,255,0.3) bxs:0 4px 30px rgba(0,0,0,0.2) backdrop-filter:blur(5px) -webkit-backdrop-filter:5px]>
