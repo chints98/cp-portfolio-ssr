@@ -39,13 +39,13 @@ export default tag PagerdutyCasePage
 					# inner div for tags
 					<h2[c:hue9 fw:500 lh:auto margin-block:2px]> "Pagerduty teams internship"
 					<div[d:flex fld:row flw:wrap w:fit-content jc:center g:3 py:4]>
-						<chip> <span[c:hue9 fs:sm- fw:400]> "2018"
+						<chip> <span[c:hue9 fs:sm- fw:400]> "Summer 2018"
 						<chip> <span[c:hue9 fs:sm- fw:400]> "Pagerduty"
 						<chip> <span[c:hue9 fs:sm- fw:400]> "UX Design"
 
 			<stacked-grid-container>
 				<div[d:flex fld:column ai:center ai@md:flex-start maw:960px]> # case container. Use border to debug. Added max-width 960px here for larger screens 
-					<div[d:flex w:100% rd:xl fld:column fld@md:row ai:flex-start jc:space-between]> # div for project overview?
+					<div[d:flex w:100% rd:xl fld:column fld@md:row ai:flex-start jc:space-around]> # div for project overview?
 						<div[d:flex fld:column w:100% flw:wrap ai:flex-start]>
 							<h3> "Overview"
 							<span> "Redesigning PagerDuty's teams configuration feature to help administrators make triaged incident management decisions with more confidence."
@@ -186,11 +186,11 @@ export default tag PagerdutyCasePage
 										<source src="https://chaitanya-portfolio.b-cdn.net/portfolio-2025-image-assets/pagerduty-work/PD-Design-Folder/Iteration-1-prototype.mp4" type="video/mp4">
 									<p[c:cool5 fw:300 margin-block:12px]> "Initial segmented controls concept"
 							<div[d:vflex d@md:hflex g:8 w:100% p:4]> # Layout - pros and cons table
-								<div[d:vflex p:4 bg:green4/20 w:100%]>
+								<div[d:vflex p:4 rd:lg bg:green4/20 w:100%]>
 									<h3[c:green9 ff:"Geist Mono", monospace]> "Pro ✅"
 									<ul>
 										<li[c:green9]> "Segmented control allowed for quick context switching"
-								<div[d:vflex p:4 bg:red4/20 w:100%]>
+								<div[d:vflex p:4 rd:lg bg:red4/20 w:100%]>
 									<h3[c:red9 ff:"Geist Mono", monospace]> "Cons 🛑"
 									<ul>
 										<li[c:red9]> "Used data table in subteams view where subteam and role are combined, detracting from a focused experience."
@@ -203,7 +203,9 @@ export default tag PagerdutyCasePage
 							<p> "The two data tables in the “sub teams and parent team” view cause cognitive overload with admins not being able to focus on two tables at the same time, detracting from our user’s intent to make decisions quickly."
 							<p> "Lack of search bar in all sections left users confused, consistency issue which can potentially hinder experiences."
 							<p> "Information felt cluttered within data tables - “I’m looking at too much here, how am I supposed to parse through this?”- SRE at client company (Cisco)."
-							<p[fw:700]> "How might we better surface information in data tables for the 'Subteam and Parent team view?'"
+							<div[d:vflex ai:center rd:xl]> # block-quote
+								<div[d:vflex w:100% p:4 ai:center bd:green4/30 rd:sm]>
+									<h4[c:cool8]> `How might we better surface information in data tables for the 'Subteam and Parent team view?`
 
 						<div[d:flex fld:column pt:0 w:100%]> # Design decisions
 							<h2> "Iteration 2"
@@ -214,14 +216,14 @@ export default tag PagerdutyCasePage
 										<source src="https://chaitanya-portfolio.b-cdn.net/portfolio-2025-image-assets/pagerduty-work/PD-Design-Folder/Iteration-2-prototype.mp4" type="video/mp4">
 									<p[c:cool5 fw:300 margin-block:12px]> "Combined parent team and subteam view"
 							<div[d:vflex d@md:hflex g:8 w:100% p:4]> # Layout - pros and cons table
-								<div[d:vflex p:4 bg:green4/20 w:100%]>
+								<div[d:vflex p:4 rd:lg bg:green4/20 w:100%]>
 									<h3[c:green9 ff:"Geist Mono", monospace]> "Pros ✅"
 									<ul>
 										<li[c:green9]> "Separated data table is consistent and surfaces team heirarchies more clearly."
 										<li[c:green9]> "Combined parent team and subteam view is clear and scalable."
 										<li[c:green9]> "Consistent search function across all segmented views."
 
-								<div[d:vflex p:4 bg:red4/20 w:100%]>
+								<div[d:vflex p:4 rd:lg bg:red4/20 w:100%]>
 									<h3[c:red9 ff:"Geist Mono", monospace]> "Con 🛑"
 									<ul>
 										<li[c:red9]> "Visual differentiation of segmented controls not as accessible."
