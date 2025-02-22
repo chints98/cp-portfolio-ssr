@@ -35,10 +35,10 @@ export default tag MindsCasePage
 			<case-image-hero[hue:amber]>
 				<div[d:flex fld:column ai:center w:fit-content p:2]>
 					# inner div for tags
-					<h2[c:hue9 fw:500 lh:auto margin-block:2px]> "Designing for growth at Wizehire"
+					<h2[c:hue9 fw:500 lh:auto margin-block:2px]> "Minds design system"
 					<div[d:flex fld:row flw:wrap w:fit-content jc:center g:3 py:4]>
-						<chip> <span[c:hue9 fs:sm- fw:400]> "Summer 2019"
-						<chip> <span[c:hue9 fs:sm- fw:400]> "Wizehire"
+						<chip> <span[c:hue9 fs:sm- fw:400]> "2022-23"
+						<chip> <span[c:hue9 fs:sm- fw:400]> "Minds"
 						<chip> <span[c:hue9 fs:sm- fw:400]> "Product design"
 				<div[d:flex fld:column ai:center w:100% p:2]>
 					<img[rd:xl w:100% maw@md:40%] src=case-photos.minds-design-system>
@@ -50,7 +50,7 @@ export default tag MindsCasePage
 							<h3> "Overview"
 							<span[ta:center]> "Designing and helping implement a design system to unify Minds' web and mobile experiences, improve consistency and increase developer velocity."
 							<h3> "Role"
-							<span[ta:center]> "One of two UX designers on a cross functional team. I took the lead on the foundational and web components, while Michael was focused on mobile components, as well as design system governance and advocacy."
+							<span[ta:center]> "One of two UX designers on a cross functional product and engineering team. I took the lead on foundational and web components, as well as governance."
 						<div[d:flex fld:column w:100% flw:wrap ai:center]>
 							<h3> "Timeline"
 							# <chip[hue:cool]> <span[c:hue9 fs:sm- fw:400]> "4 weeks"

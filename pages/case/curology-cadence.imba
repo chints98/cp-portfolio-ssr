@@ -198,7 +198,7 @@ export default tag CurologyCasePage
 									<img[rd:xl w:100%] src=case-photos.networks-mvp>
 									<p[c:cool5 fw:300 margin-block:12px]> "Entry point screen - end of flow"							
 							<p> "We iterated upon this by introducing meta-data onto the modal. This would communicate to the user, that the setting would not change their upcoming box’s shipment date. However, we would craft the intent of the copy in the action button to reflect the new frequency state, which we hypothesized would re-assure users of their action taken, while being informed that it would not immediately change their shipment date."							
-							<p> "The first prototype here, assumes the simplest possible flow, and is structurally the same as the previously implemented feature. However, the modal doesn’t precisely communicate what the change in frequency is affecting. Since the setting simply communicated the old frequency (6 weeks in this case), users might not have been sure of the immediate effect"
+							<p> "The first prototype here, assumes the simplest possible flow, and is structurally the same as the previously implemented feature. However, the modal doesn’t precisely communicate what the change in frequency is affecting. Since the setting simply communicated the old frequency (6 weeks in this case), users might not have been sure of the immediate effect."
 							<div[d:vflex d@md:hflex w:100% p:2]> # vid-wrapper container
 								# image should have a vflex only container that puts in a caption. 
 								<div[d:vflex w:100% ai:center]> 
@@ -220,7 +220,7 @@ export default tag CurologyCasePage
 							<h3> "Exploration 1"
 							<p> "Dialog modal with single-select cells. Contextual anchor to shipping date."
 							<p> "Initially, I kept the design simple, showing contextual meta-data that showcases the shipping date for the user."
-							<p> "The intent here, was to provide the user context as to when their shipment was arriving, but also to scale as I asked our design team whether it’d be useful for users to change their most recent, upcoming box"
+							<p> "The intent here, was to provide the user context as to when their shipment was arriving, but also to scale as I asked our design team whether it’d be useful for users to change their most recent, upcoming box."
 							<h3> "Exploration 2"
 							<p> "Adding micro-copy under each option to provide user with additional context. We were essentially providing each option with corresponding meta-data. However, a question raised, was would the amount of text cause choice paralysis?"
 							<h3> "Exploration 3"
@@ -243,7 +243,8 @@ export default tag CurologyCasePage
 								<div[d:vflex w:100% ai:center]> 
 									<img[rd:xl w:100%] src=case-photos.networks-mvp>
 									<p[c:cool5 fw:300 margin-block:12px]> "Previous, generative exploration - one of the reasons why I always keep old explorations stashed away, rather than deleting them. Design is a generative endeavor a lot of the time."							
-							<p> "The above exploration was an old, generative iteration that I had come up with, with the intent to clearly delineate between selection, and meta-data. When discussing the feature after critique, we realized that if users’ did want to change their initial shipment whilst changing frequency, there would need to be screen real estate for scalable copy. An example would be if a user wanted to change their frequency, and in the default case, it would be able to show their shipment date. How about a user changing their frequency, but it being too late to change the frequency of their current box? It would accompany copy such as “This change only affects boxes shipped after Aug 20, 2020.” Would this scale well right below the modal header? Or is there a way to delineate meta-data and selection without an edge-case situation feeling crammed, and with visual breathing room."
+							<p> "The above exploration was an old, generative iteration that I had come up with, with the intent to clearly delineate between selection, and meta-data. When discussing the feature after critique, we realized that if users’ did want to change their initial shipment whilst changing frequency, there would need to be screen real estate for scalable copy. An example would be if a user wanted to change their frequency, and in the default case, it would be able to show their shipment date." 
+							<p> "How about a user changing their frequency, but it being too late to change the frequency of their current box? It would accompany copy such as “This change only affects boxes shipped after Aug 20, 2020.” Would this scale well right below the modal header? Or is there a way to delineate meta-data and selection without an edge-case situation feeling crammed, and with visual breathing room."
 
 
 						<div[d:flex fld:column pt:0 w:100%]> # Visual design details - evolution of modal after feedback and iteration
@@ -330,7 +331,7 @@ export default tag CurologyCasePage
 							<p> "Scenario: screen date - Sep 1st, I got a box on this date."
 							<ul>
 								<li> "Current subscription frequency: 6 weeks. Next billing and shipping date: Oct 13."
-								<li> "After changing frequency to 8 weeks - new billing and shipping date is Oct 27."
+								<li> "New frequency: 8 weeks. New billing and shipping date is Oct 27."
 							<h3> "Edge case design"
 							<div[d:vflex d@md:hflex w:100% p:2]> # image-wrapper container
 								# image should have a vflex only container that puts in a caption. 

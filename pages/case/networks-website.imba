@@ -50,7 +50,7 @@ export default tag NetworksWebsitePage
 							<h3> "Overview"
 							<span[ta:center]> "Designing and developing the Minds Networks landing page, resulting in a 35% increase in trials and a 45% increase in closed sales in 2 months since initial launch."
 							<h3> "Role"
-							<span[ta:center]> "I was privileged to wear the hat of designer and engineer for this initiative, leading information architecture and strategy, as well as working alongside our PM, Ryan, to create engaging visuals for attracting new customers. I also contributed to design engineering in Astro and Typescript, creating most of the pages, and extending Astro to consume a dynamic React component (pricing switch)."
+							<span[ta:center]> "Design engineering and research on a cross functional product team."
 						<div[d:flex fld:column w:100% flw:wrap ai:center]>
 							<h3> "Timeline"
 							# <chip[hue:cool]> <span[c:hue9 fs:sm- fw:400]> "4 weeks"
@@ -202,7 +202,7 @@ export default tag NetworksWebsitePage
 									<p[c:cool5 fw:300 margin-block:12px]> "Blog article"
 							<p> "These blogs and case studies were also built in a flexible way with Astro, able to be used for more in depth tutorials on setting up a network, or success stories of different clients with Networks. This flexibility allowed us to use this content in our email marketing campaigns, as well as rank in search results."
 							<h3> "Increasing the value of trials"
-							<p> "We identified that of users clicking on trials, either through advertising or organically, and only 38% were completing initial sign ups and sticking around after day 1. This was a key issue. We also identified from research that customers or potential customers who already have a domain in mind was a good heuristic for signal in terms of likelihood to purchase."
+							<p> "We identified that of users clicking on trials, either through advertising or organically, and only 38% were completing initial sign ups and sticking around after day 1. We also identified from research that customers or potential customers who already have a domain in mind was a good heuristic for signal in terms of likelihood to purchase."
 							<p> "Even though our signup and day 1 retention rate was much higher at 85% for contacted clients and prospects, the potential volume of organic and ad-served trials meant that this entry point required focus, and initial efforts on the Networks marketing site has already helped increase the rate to 55%. We could then hypothesize that allowing the user more custom inputs in a frictionless way that makes the network truly theirs before the network gets created, would result in an even higher rate of signup completion and retention beyond day 1."
 							<p> "Armed with the insight that if a customer already had a domain (high signal that they were serious), Mark and I proposed a small A/B test to improve trial conversion rates, with the express goal of leveraging an AI agent our developer, Ben, and Mark had been tinkering on. This agent would have bots create featured accounts, curate a network and seamlessly set up on a custom domain so that a network owner can focus on growing their network and personalizing it, rather than spending time doing busywork."
 							<div[d:vflex d@md:hflex w:100% p:2]> # image-wrapper container
@@ -217,7 +217,8 @@ export default tag NetworksWebsitePage
 
 						<div[d:flex fld:column pt:0 w:100%]> # Results and impact
 							<h2> "Results and impact"
-							<a href="https://networks.minds.com/" target="_blank"> "Visit the site here!"
+							<p>
+								<a href="https://networks.minds.com/" target="_blank"> "Visit the site here!"
 							<p> "Upon the site's initial launch and tracking metrics over the first 45 days, Minds saw "
 							<ul>
 								<li> "a 45% increase in the number of sales calls, with an average of 3 sales calls booked per day on the website."

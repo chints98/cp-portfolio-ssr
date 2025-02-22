@@ -159,7 +159,7 @@ export default tag PagerdutyCasePage
 								<div[d:vflex w:100% ai:center]> 
 									<img[rd:xl w:100%] src=case-photos.networks-mvp> # w@md used to focus single image in the center for larger screens.
 									<p[c:cool5 fw:300 margin-block:12px]> "Solution A - Data table with team role and subteam combined"
-							<p> "While this solution works well for a singular user on a team when they might have a defined role. However, we must consider the case where a user could be part of a subteam within a subteam (nested subteams). Would this cause information overload?."
+							<p> "While this solution works well for a singular user on a team when they might have a defined role. However, we must consider the case where a user could be part of a subteam within a subteam (nested subteams). Would this cause information overload?"
 							<p> "The main question here was whether this would scale for such a case, something that we’d only be able to test with real users."
 							<div[d:vflex d@md:hflex w:100% p:2]> # image container
 								# image should have a vflex only container that puts in a caption. 

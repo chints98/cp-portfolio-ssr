@@ -48,9 +48,9 @@ export default tag NetworksProductPage
 					<div[d:flex w:100% rd:xl fld:column fld@md:row ai:flex-start jc:space-around]> # div for project overview?
 						<div[d:flex fld:column w:100% px:2 flw:wrap ai:center]>
 							<h3> "Overview"
-							<span[ta:center]> "Research and design for Minds Networks, a SaaS solution that leverages Minds.com open source infrastructure, allowing creators to spin up a social network in minutes. This was an important pivot for the company from a revenue and strategy standpoint, with the aim of generating sustainable recurring revenue."
+							<span[ta:center]> "Research and design for Minds Networks, a SaaS solution that leverages Minds.com open source infrastructure, allowing creators to spin up a social network in minutes."
 							<h3> "Role"
-							<span[ta:center]> "I worked alongside our design lead Michael on a cross functional team, taking the lead on initial discovery, research, and focused on the interaction design of various features."
+							<span[ta:center]> "Led initial research, as well as the design of most admin facing features and integrations."
 							<h3> "Platforms"
 							<span[ta:center]> "Web and mobile"
 						<div[d:flex fld:column w:100% flw:wrap ai:center]>
@@ -79,7 +79,7 @@ export default tag NetworksProductPage
 						# Actual content start	
 						<div[d:flex fld:column pt:0 w:100%]> # Introduction
 							<h2> "Introduction"
-							<p> "One of our key projects during my time at Minds was designing Minds Networks, a solution that enables creators and publishers the ability to create a custom social experience for their audience, with powerful features to grow revenue through memberships and advertising."
+							<p> "One of our key projects during my time at Minds was designing Minds Networks, a solution that enables creators and publishers the ability to create a custom social experience for their audience, with powerful features to grow revenue through memberships and advertising. This was an important pivot for the company from a revenue and strategy standpoint, with the aim of generating sustainable recurring revenue."
 							<p> "The core people problem that we were aiming to address, was that "
 								<span[fw:700]> "independent publishers and creators lacked a solution that enables them to curate, monetize and grow a community on their own terms."
 							<p/>
@@ -336,8 +336,7 @@ export default tag NetworksProductPage
 									<img[rd:xl w:100%] src=case-photos.networks-mvp> # w@md used to focus single image in the center for larger screens.
 									<p[c:cool5 fw:300 margin-block:12px]> "Navigation settings"
 							<p> "A common use case for our early clients was directing traffic to their homepages and site, with the network being a critical entry point. Prospective network owners also wanted to be able to personalize their network's navigation and pages. An insightful example in action was our client Fishtank, who's chronological trending feed was more engaged with, and thus wanted this trending feed to be the first entry point into the community for new members."
-							<p> "To that end, we designed a system that allowed network owners to set any homepage, such as memberships or even a group that is highly engaged."
-							<p> "Network owners can also create custom links, with a constrained selection of icons and link to their publishing website."
+							<p> "To achieve this, we designed a system that allowed network owners to set any homepage, such as memberships or even a group that is highly engaged. Network owners can also create custom links, with a constrained selection of icons and link to their publishing website."
 							<h4> "Always keep connected with chat"
 							<p> "We were grateful to have an initial version of live chat that our design lead, Michael, and myself had shipped over the last quarter, in the networks app itself. While we intentionally designed chat to be minimal and constrained, it scales with the ability for simple group dm's, media uploads and rich embeds, perfect for smaller communities"
 							<div[d:vflex d@md:hflex w:100% p:2]> # image-wrapper container

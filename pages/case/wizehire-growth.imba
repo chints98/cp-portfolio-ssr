@@ -96,8 +96,8 @@ export default tag WizehireCasePage
 							<p> "We aimed to validate our hypothesis with promoters first, as they are more likely to refer someone compared to a non promoter."
 							<h3> "Auditing the current experience"
 							<p> 
-							<span[fw:700]> "tl;dr: " 
-							"An engineer and myself led an audit of the current referral experience. The audit, alongside the survey results helped us realize that most of our users weren’t discovering the referrals feature, whilst the current referrals feature suffered from a lack of consistency."
+								<span[fw:700]> "tl;dr: " 
+								"An engineer and myself led an audit of the current referral experience. The audit, alongside the survey results helped us realize that most of our users weren’t discovering the referrals feature, whilst the current referrals feature suffered from a lack of consistency."
 							<p/>
 							<p> "Myself and a product engineer led an audit on the current referral experience to identify areas of improvement in the referral experience, as well as analyze the different points of entry."
 							<div[d:vflex d@md:hflex w:100% p:2]> # image-wrapper container
@@ -297,7 +297,7 @@ export default tag WizehireCasePage
 									<video[rd:xl w:100%] autoplay muted loop> # w@md used to focus single image in the center for larger screens.
 										<source src="https://chaitanya-portfolio.b-cdn.net/portfolio-2025-image-assets/pagerduty-work/PD-Design-Folder/Iteration-1-prototype.mp4" type="video/mp4">
 									<p[c:cool5 fw:300 margin-block:12px]> "Exploration B - callout is revealed with a motion animation on the x-axis"
-							<p> "We went ahead with the vertical exploration, after auditing other products using referrals, as well as it being not as jarring as coming in from the side, or simply appearing without any particular context"
+							<p> "We went ahead with the vertical exploration, after auditing other products using referrals, as well as it being not as jarring as coming in from the side, or simply appearing without any particular context."
 						<div[d:flex fld:column pt:0 w:100%]> # Final design of callout module
 							<h2> "Final design of callout module"
 							<p> "I went ahead and iterated on the callout with a copywriter, and worked alongside an illustrator to make the copy and illustrations of the callout contextual for each touchpoint that a user might be a part of during their journey with the product, which was an important goal of the experiment."
@@ -330,7 +330,7 @@ export default tag WizehireCasePage
 									<h4[c:cool8 ta:center]> `We hypothesized that if we surface referral options to users at moments of achievement, as well as areas that are discoverable within context, it would allow users to share Wizehire as a product to others within their network more easily.`
 
 							<p[fw:700]> "We also predicted that designing the referral experience across various touchpoints of a user’s journey would lead to a higher number of promoters within the product to send invites."
-							<p> "The experiment was released on August 15th, 2019, with the goal of testing this against the previous referral experience with half of the users in the product"
+							<p> "The experiment was released on August 15th, 2019, with the goal of testing this against the previous referral experience with half of the users in the product."
 							<p> "The experiment was a success, resulting in a relative lift of 20% of existing promoters within 3 weeks of launch. The plan is to launch the experience to all users, and iterate on UI and copy according to analytics data with more users, as well as observe other areas of potential impact within the users' journey."
 							<h3> "Selling design as a collective effort"
 							<p> "As a part of an effort to make design more data informed, I pitched to a marketing engineer, as well as the CTO the benefits of setting up an analytics infrastructure, and we were able to co-ordinate this before the experiment released. Our tracking now includes a detailed breakdown of each elements' action by integrating Segment and Mixpanel."

@@ -38,8 +38,8 @@ export default tag CurologyMiscPage
 					# inner div for tags
 					<h2[c:hue9 fw:500 lh:auto margin-block:2px]> "Designing for growth at Wizehire"
 					<div[d:flex fld:row flw:wrap w:fit-content jc:center g:3 py:4]>
-						<chip> <span[c:hue9 fs:sm- fw:400]> "Summer 2019"
-						<chip> <span[c:hue9 fs:sm- fw:400]> "Wizehire"
+						<chip> <span[c:hue9 fs:sm- fw:400]> "Summer 2020"
+						<chip> <span[c:hue9 fs:sm- fw:400]> "Curology"
 						<chip> <span[c:hue9 fs:sm- fw:400]> "Product design"
 				<div[d:flex fld:column ai:center w:100% p:2]>
 					<img[rd:xl w:100% maw@md:40%] src=case-photos.pagerduty-teams>

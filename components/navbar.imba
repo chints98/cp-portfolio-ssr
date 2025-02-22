@@ -14,7 +14,6 @@ export default tag Navbar
 			<nav[w:70% mih:80px d:flex fld:row ai:center jc:space-around]>
 				if activeTab === "/" then <a[c:hue8 td:underline fw:600] href="/"> 'Home' else <a href="/"> 'Home'
 				if activeTab === "/about" then <a[c:hue8 td:underline fw:600] href="/about.html"> 'About' else <a href="/about.html"> 'About'
-				if activeTab === "/nested" then <a[c:hue8 td:underline fw:600] href="/nested/nested.html"> 'Nested' else <a href="/nested/nested.html"> 'Nested'
 				<a href="https://drive.google.com/file/d/1fZkEDANXGMHPU-Fp-7383EQSJr9nr7_-/view?usp=sharing" target="_blank"> 'Resume'
 
 				
