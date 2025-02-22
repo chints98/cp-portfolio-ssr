@@ -22,7 +22,7 @@ const case-photos = {
 
 
 export default tag NetworksWebsitePage 
-	prop title\string = "Case - Chaitanya Prashant"
+	prop title\string = "Chaitanya Prashant - Design and engineering for the Minds Networks website"
 	# top level // local styles. Put typography based styles here as well (inline other custom ones)
 	css mih:100vh h:100% bg:white e:400ms # root element / page
 	css .case-content pt:8 w:100% d:flex fld:column ai:center ai@md:flex-start c:cool9
@@ -30,335 +30,208 @@ export default tag NetworksWebsitePage
 		li mb:8px
 	<self>
 		<div[pos:fixed miw:100% zi:10000 bottom:64px d:flex jc:center rd:999px]>
-			<Navbar activeTab="/wizehire-growth">
+			<Navbar activeTab="/networks-website">
 		<page-layout>
-			<case-image-hero[hue:green]>
-				<div[d:flex fld:column ai:center w:100% p:2]>
-					<img[rd:xl w:100% maw@md:60%] src=case-photos.pagerduty-teams>
+			<case-image-hero[hue:indigo]>
 				<div[d:flex fld:column ai:center w:fit-content p:2]>
 					# inner div for tags
-					<h2[c:hue9 fw:500 lh:auto margin-block:2px]> "Designing for growth at Wizehire"
+					<h2[c:hue9 fw:500 lh:auto margin-block:2px]> "Minds Networks website"
 					<div[d:flex fld:row flw:wrap w:fit-content jc:center g:3 py:4]>
-						<chip> <span[c:hue9 fs:sm- fw:400]> "Summer 2019"
-						<chip> <span[c:hue9 fs:sm- fw:400]> "Wizehire"
-						<chip> <span[c:hue9 fs:sm- fw:400]> "Product design"
+						<chip> <span[c:hue9 fs:sm- fw:400]> "2024"
+						<chip> <span[c:hue9 fs:sm- fw:400]> "Minds"
+						<chip> <span[c:hue9 fs:sm- fw:400]> "Design engineering"
+				<div[d:flex fld:column ai:center w:100% p:2]>
+					<img[rd:xl w:100% maw@md:40%] src=case-photos.networks-website>
 
 			<stacked-grid-container>
 				<div[d:flex fld:column ai:center ai@md:flex-start maw:960px]> # case container. Use border to debug. Added max-width 960px here for larger screens 
 					<div[d:flex w:100% rd:xl fld:column fld@md:row ai:flex-start jc:space-around]> # div for project overview?
-						<div[d:flex fld:column w:100% flw:wrap ai:flex-start]>
+						<div[d:flex fld:column w:100% px:2 flw:wrap ai:center]>
 							<h3> "Overview"
-							<span> "Designing a new referral experience within the Wizehire ATS to increase new user growth and aid monetization."
+							<span[ta:center]> "Designing and developing the Minds Networks landing page, resulting in a 35% increase in trials and a 45% increase in closed sales in 2 months since initial launch."
 							<h3> "Role"
-							<span> "Lead designer on a cross functional team."
-						<div[d:flex fld:column w:100% flw:wrap ai:flex-start]>
+							<span[ta:center]> "I was privileged to wear the hat of designer and engineer for this initiative, leading information architecture and strategy, as well as working alongside our PM, Ryan, to create engaging visuals for attracting new customers. I also contributed to design engineering in Astro and Typescript, creating most of the pages, and extending Astro to consume a dynamic React component (pricing switch)."
+						<div[d:flex fld:column w:100% flw:wrap ai:center]>
 							<h3> "Timeline"
 							# <chip[hue:cool]> <span[c:hue9 fs:sm- fw:400]> "4 weeks"
-							<span> "Summer 2019 - 4 weeks"
-						<div[d:flex fld:column w:100% flw:wrap ai:flex-start]>
+							<span[ta:center]> "June 2024 - August 2024"
+						<div[d:flex fld:column w:100% flw:wrap ai:center]>
 							<h3> "Responsibilities"
-							<span> "Design research, interaction and visual design, and product thinking."
+							<span[ta:center]> "Design thinking, interaction design, marketing design, design engineering."
 							<h3> "Team"
 							<ul>
-								<li> "Chaitanya Prashant - Design"
-								<li> "Chad Masso - Product and Engineering"
-								<li> "Ritz Wu - Data"
-								<li> "Leisha Scallan - Illustrator"
-								<li> "Olive Krawczyk - Content"
+								<li> "Chaitanya Prashant - Design and front-end engineering"
+								<li> "Mark Ryan Sallee - PM, strategy, content"
+								<li> "Mark Harding - Engineering / CTO"
+								<li> "Jack Ottman - Product, COO"
+								<li> "Bill Ottman - Product, strategy, CEO"
 
 						# <h3[c:white fw:500 ta:center ta@md:left ff:"Geist Mono", monospace]> "About me"
 					<.case-content>
 						css p ta:left lh:1.25rem c:cool9 margin-block-start:unset
 						css .links d:flex w:80% jc:center ai:space-around ta:left
 						css	a ta:left
-						
 						# Actual content start	
-					
 						<div[d:flex fld:column pt:0 w:100%]> # Introduction
 							<h2> "Introduction"
-							<p> "This project was a growth initiative aiming to better allow SMB (small and medium business) owners, who use the Wizehire product for their hiring needs, to invite others facing similar hiring needs in their network. While I co-lead design of the feature, I worked with two product engineers, a writer, and another designer."
-							<p> "As my first design project focused on growth, I realized that while it is important to be informed by metrics and data, one needs to consider the broader user’s journey, instead of paywalls that could serve to be intrusive to the user."
-							<h3> "Hypothesis"
-							<p> "If we surface referral options to users at moments of achievement, as well as areas that are discoverable within context, it would allow users to share the value of Wizehire as a product to others within their network, driving new user growth."
-							<div[d:vflex d@md:hflex w:100% p:2]> # image-wrapper container
+							<p> "This was a new direction for Minds as a company, as their initial focus was on a social media platform with a focus on the creator and free speech. However, this business model was not sustainable, and there had already been interest within the independent media and small creator community for a custom, white label tool based on our infrastructure."
+							<p> "Enter Minds Networks, allowing creators and publishers the ability to create a custom social experience for their audience, with powerful features to grow revenue through memberships and advertising. The initial product launch of Minds Networks (link to Networks here) was a relatively successful one, with strong initial adoption and signing 20 clients within the first two months of launch, including Tablet magazine (link here) and Jimmy Dore."
+							<div[d:vflex d@md:hflex w:100% p:2]> # vid-wrapper container
 								# image should have a vflex only container that puts in a caption. 
 								<div[d:vflex w:100% ai:center]> 
-									<img[rd:xl w:100%] src=case-photos.networks-mvp> # w@md used to focus single image in the center for larger screens.
-									<p[c:cool5 fw:300 margin-block:12px]> "Shipped solution"
+									<video[rd:xl w:100%] autoplay muted loop> # w@md used to focus single image in the center for larger screens.
+										<source src="https://chaitanya-portfolio.b-cdn.net/portfolio-2025-image-assets/pagerduty-work/PD-Design-Folder/Iteration-1-prototype.mp4" type="video/mp4">
+									<p[c:cool5 fw:300 margin-block:12px]> "Book a call to find out more about Minds Networks"
+							<p[fw:700]> "However, the product lacked a marketing site that served as a robust entry point for organic acquisitions."
+							<p> "I  was privileged to be able to contribute to the full stack for this project, with a focus on design engineering in Astro.js, React and Tailwind with our CTO and developer. I also co-lead design strategy with our PM, conducted user research and contributed to our marketing assets and direction."
 
 						<div[d:flex fld:column pt:0 w:100%]> # Understanding the problem
 							<h2> "Understanding the problem"
-							<h3> "Opportunities"
+							<p> "The first set of sales were mostly via word of mouth acquisitions, and we were directing users to a simple about page that allowed users to select a plan. The low-touch site worked for our initial launch, but was too tied with the previous Minds brand, and light on content to work as a marketing site that could serve as a robust entry point for acquisition. The one-page domain was also not a very accessible one, in fact using the same brand as the social platform."
+							<p> "Another key problem was the lack of content to supplement our sales pipeline. Since Minds Networks is a feature rich community product, it was a key marketing goal to establish credibility on the web. To that end, the team had drafted some initial content on community building, community building best practices, and onboarding articles. Ryan, our PM and I advocated that hosting the content on our site would boost SEO rankings, as well as serve our sales pipeline as content could ideally be re-used across various channels including marketing e-mails and newsletters."
+							<p> "We re-framed the problem space by prioritizing the information architecture of the proposed site, as well as conducting initial research with current customers to help prioritize content strategy."
+
+						<div[d:flex fld:column pt:0 w:100%]> # Hypothesis
+							<h2> "Hypothesis"
+							<p> "We hypothesized that a dedicated solution / marketing site would "
+							<ul>
+								<li> "educate passive visitors and aid in discovery of the product."
+								<li> "serve as an acquisition hub for self-serve customers." 
+								<li> "serve as a content engine for Networks sales and marketing efforts."
+								<li> "increase the number of sales calls booked and trials started."
+
+
+						<div[d:flex fld:column pt:0 w:100%]> # Solution
+							<h2> "Solution"
+							<p> "A snappy, content first marketing website which "
+							<ul> 
+								<li> "established Minds Networks as a brand"
+								<li> "helps convert potential customers and provides an easy way to purchase Networks."
+								<li> "serves as a key hub of content for sales and marketing efforts with reusable content and an easy to update CMS experience."
+							<div[d:vflex d@md:hflex w:100% p:2]> # vid-wrapper container
+								# image should have a vflex only container that puts in a caption. 
+								<div[d:vflex w:100% ai:center]> 
+									<video[rd:xl w:100%] autoplay muted loop> # w@md used to focus single image in the center for larger screens.
+										<source src="https://chaitanya-portfolio.b-cdn.net/portfolio-2025-image-assets/pagerduty-work/PD-Design-Folder/Iteration-1-prototype.mp4" type="video/mp4">
+									<p[c:cool5 fw:300 margin-block:12px]> "Minds Networks - Booking a call with sales"
+							<div[d:vflex d@md:hflex w:100% p:2]> # vid-wrapper container
+								# image should have a vflex only container that puts in a caption. 
+								<div[d:vflex w:100% ai:center]> 
+									<video[rd:xl w:100%] autoplay muted loop> # w@md used to focus single image in the center for larger screens.
+										<source src="https://chaitanya-portfolio.b-cdn.net/portfolio-2025-image-assets/pagerduty-work/PD-Design-Folder/Iteration-1-prototype.mp4" type="video/mp4">
+									<p[c:cool5 fw:300 margin-block:12px]> "Minds Networks - Start a free trial"
+
+						<div[d:flex fld:column pt:0 w:100%]> # Outcomes and key metrics
+							<h2> "Outcomes and key metrics"
+							<p> "Upon the site's initial launch and tracking metrics over the first 45 days, Minds saw "
+							<ul> 
+								<li> "a 45% increase in the number of sales calls, with an average of 3 sales calls booked per day on the website."
+								<li> "a 35% increase in free trials started. Free trials were still an important part of our self-serve sales pipeline, as initiating a trial activates a personalized e-mail campaign, and we aim to book calls with potential clients here to examine a good fit. The average number of trials started was 7 per day."
+
+						<div[d:flex fld:column pt:0 w:100%]> # Design and development goals
+							<h2> "Design and development goals"
 							<p> 
-								<span[fw:700]> "tl;dr: " 
-								"A very small percentage of promoters (via NPS Score), 13% are responsible for 90% of the referrals from the Wizehire product. There are opportunities to surface invites in a more discoverable way so that users can share the product with other friends + family who have hiring needs, while getting $100 off after each friend signs up." 
-							<p/>
-							<p> "We aimed to validate our hypothesis with promoters first, as they are more likely to refer someone compared to a non promoter."
-							<h3> "Auditing the current experience"
-							<p> 
-							<span[fw:700]> "tl;dr: " 
-							"An engineer and myself led an audit of the current referral experience. The audit, alongside the survey results helped us realize that most of our users weren’t discovering the referrals feature, whilst the current referrals feature suffered from a lack of consistency."
-							<p/>
-							<p> "Myself and a product engineer led an audit on the current referral experience to identify areas of improvement in the referral experience, as well as analyze the different points of entry."
+								"From our initial launch and feedback, our ideal customer profile was converging on the independent media creator or publisher, especially those who need a community app solution with robust moderation and membership tools. Initial customers such as Jimmy Dore and Fishtank were able to seamlessly set up their own social network, sell ads and retain their audiences. What's in it for the creator? Apart from being able to earn revenue, these communities can help these creators to both retain, as well as grow their audiences according to " 
+								<a href="https://www.gartner.com/en/documents/3989266" target="_blank"> "market research by Gartner"
+								"."
+							<p> "We collaborated with the CTO and the development team to translate our needs and requirements into principles for our initative."
+							<ul>
+								<li> "Design with a content first approach."
+								<li> "Design and develop the site in a way that content updates can be made by non-technical members of the team."
+								<li> "Design to convert visitors to a booked sales call or initiate a trial. - We wanted to optimize for a sales call first, as this was still the most likely way a user would sign up and purchase a plan."
+							<p> "Thus, our strategy for implementation was to leverage Astro.js for its speed, developer experience and solid integration with our existing CMS in Strapi. This helped ensure that all CMS code was reusable, and focus could be placed on contnt and information architecture."
 							<div[d:vflex d@md:hflex w:100% p:2]> # image-wrapper container
+								# image should have a vflex only container that puts in a caption. 
+								<div[d:vflex w:100% ai:center]> 
+									<img[rd:xl w:100%] src=case-photos.networks-mvp> # w@md used to focus single image in the center for larger screens.
+									<p[c:cool5 fw:300 margin-block:12px]> "Site IA and navigation"
+
+						<div[d:flex fld:column pt:0 w:100%]> # Key design decisions and surfaces
+							<h2> "Key design decisions and surfaces"
+							<p> "Upon initial release, Ryan and I hypothesized that since our product was complex, a simple representation of the product and its core features would help educate users in a lightweight way, whilst keeping a focus on the core CTA's. We were optimizing for users clicking on 'booking a demo' for two key reasons."
+							<p> "Firstly, a higher percentage of potential customers who started with a demo were converting to sales compared to people on the free trial. Secondly, the free trial already includes an email campaign where the goal is a sales call with the customer to see if there's a potential fit."
+							<div[d:vflex d@md:hflex w:100% p:2]> # vid-wrapper container
+								# image should have a vflex only container that puts in a caption. 
+								<div[d:vflex w:100% ai:center]> 
+									<video[rd:xl w:100%] autoplay muted loop> # w@md used to focus single image in the center for larger screens.
+										<source src="https://chaitanya-portfolio.b-cdn.net/portfolio-2025-image-assets/pagerduty-work/PD-Design-Folder/Iteration-1-prototype.mp4" type="video/mp4">
+									<p[c:cool5 fw:300 margin-block:12px]> "The Networks marketing website in action"
+							<h3> "A focus on our top performing features and use cases"
+							<p> "We focused and prioritized the top use cases that were originating in both interviews, as well as search terms and ads. This dual approach meant that we were validating the signal from search terms with actionable feedback from current customers, and this directed our content strategy."
+							<div[d:vflex d@md:hflex w:100% p:2]> # image-wrapper container (2 side-by-side)
 								# image should have a vflex only container that puts in a caption. 
 								<div[d:vflex w:100% ai:center]> 
 									<img[rd:xl w:100%] src=case-photos.networks-mvp>
-									<p[c:cool5 fw:300 margin-block:12px]> "Referral callout surfaced on the dashboard"
+									<p[c:cool5 fw:300 margin-block:12px]> "Highlighting the mobile app add-on"
 								<div[d:vflex w:100% ai:center]> 
 									<img[rd:xl w:100%] src=case-photos.networks-mvp>
-									<p[c:cool5 fw:300 margin-block:12px]> "Legacy referrals page that is shown after clicking on the callout link"
-							<p> "To invite a friend, a user can click on the link in the call-out, but it leads to the legacy referrals page, whilst the product’s own referrals page is within settings."
-							<p> "This inconsistent experience can lead to a lack of context and trust in certain situations, with a lot of users being confused as to why they were led to a different looking product."
-							<p> "Another problem we identified was the lack of visibility for the referrals program, as it was only accessible with a small call-out in the sidebar navigation."
-							<p> "The referrals page itself is also abstracted away in the information architecture, being housed in the advanced settings page."
-							<div[d:vflex d@md:hflex w:100% p:2]> # image-wrapper container
-								# image should have a vflex only container that puts in a caption. 
-								<div[d:vflex w:100% ai:center]> 
-									<img[rd:xl w:100%] src=case-photos.networks-mvp> # w@md used to focus single image in the center for larger screens.
-									<p[c:cool5 fw:300 margin-block:12px]> "Referrals page within the product"
-							<h3> "Survey"
-							<p> "I also sent out a private survey to 40 of the promoters on the product, aiming to validate some of the numbers and conclusions drawn from the audit, as well as discover why Wizehire users would refer someone to the product."
-							<p> "The main insight from these survey results were that referrals were only easily accessible from the sidebar, with 40% of the users not knowing that they could get to the referrals page through account settings. 90% respondents also validated that they refer Wizehire to friends due to the value they find in the product themselves."
-
-						<div[d:flex fld:column pt:0 w:100%]> # Insights section
-							<h2> "Insights"
-							<p[fw:700]> "The audit, along with the survey helped us realize that most of our users weren’t discovering the referrals feature."
-							<p> "I also explored a user’s journey throughout using Wizehire to identify key touchpoints in their journey where they achieve their goal in terms of using the product, and what features they use the most. This helped us set principles for the referral experience that would serve as a north star for the project"
-							<p> "Note: I am currently unable to showcase the diagram due to an NDA signed with the company, however the insights our team gained were instrumental in setting goals for the entire experience, and informed our design process."
-							<p[fw:700]> "Some of the key touchpoints in the experience where referrals could have an impact included"
-							<ul>
-								<li> "When the user makes a hire within the ATS."
-								<li> "A user whilst using the dashboard (main activity hub)."
-								<li> "When a user’s account closes (Wizehire isn’t a permanent subscription service)."
-								<li> "New user experience for an invited user."
-								<li> "Top level account navigation."
-
-						<div[d:flex fld:column pt:0 w:100%]> # Goals section
-							<h2> "Goals"
-							<div[d:vflex ai:center rd:xl]> # block-quote
-								<div[d:vflex w:100% p:4 ai:center bd:green4/30 rd:sm]>
-									<h4[c:cool8]> `What is the value add for the user and the business?`
-							<h3> "Wizehire Goals"
-							<ul>
-								<li> "Make it easier for Wizehire users who value the product to be able to share it with friends and their network, and retain these users."
-								<li> "Increase number of referrals for dormant promoters within the product."
-							<h3> "User goals"
-							<ul>
-								<li> "Share Wizehire's value with other people within their network who need hiring help."
-								<li> "Use Wizehire's product at a cheaper price (through the $100 off for each friend that is referred and signed up on the platform)."
-							<h3> "Principles"
-							<p> "We set ourselves principles or key experience goals that would guide our designs and ensure that we stayed in scope."
-							<ul>
-								<li> "Easily accessible, but not intrusive."
-								<li> "Scalability - How might we design the referral experience to be scalable, so that the experience is consistent and engineering workload is reduced."
-								<li> "Always in context - The experience shouldn't interrupt a user's flow of work within the product."
-
-							<h3> "What does success look like?"
-							<ul>
-								<li> "An increase in the percentage of invites sent out on the platform (propensity to refer should be in the 0.5-0.6 range)."
-								<li> "An increase in the percentage of promoters to 30-50% that are sending out invites."
-
-
-						<div[d:flex fld:column pt:0 w:100%]> # Crafting the high level flow
-							<h2> "Crafting the high level flow"
-							<p> "Framing the user flow as a set of modules helped us immensely as a team, as we were able to gain alignment on"
-							<ul>
-								<li> "High level experience goals, and how each potential touchpoint impacts the goal."
-								<li> "Prioritizing which design opportunities to focus on in terms of potential impact early on."
-							<div[d:vflex d@md:hflex w:100% p:2]> # image-wrapper container
-								# image should have a vflex only container that puts in a caption. 
-								<div[d:vflex w:100% ai:center]> 
-									<img[rd:xl w:100%] src=case-photos.networks-mvp> # w@md used to focus single image in the center for larger screens.
-									<p[c:cool5 fw:300 margin-block:12px]> "Proposed user flow broken down into a set of modules"
-
-							<h3> "Opportunity space - during hiring stages"
-							<p> "When a user makes a hire on the product, that is their greatest moment of achievement, as the goal of Wizehire is to help a user make an informed hire. We hypothesized that if we surfaced referral options at a touchpoint which provides a user value, it would drive the number of invites upwards."
-							<h3> "Opportunity space - surfacing referrals higher in the information architecture"
-							<div[d:vflex d@md:hflex w:100% p:2]> # image-wrapper container
-								# image should have a vflex only container that puts in a caption. 
-								<div[d:vflex w:100% ai:center]> 
-									<img[rd:xl w:100%] src=case-photos.networks-mvp> # w@md used to focus single image in the center for larger screens.
-									<p[c:cool5 fw:300 margin-block:12px]> "Opportunity to potentially surface referrals in the main account menu"
-							<p> "Considering our previous goal, as well as in a case where a callout is not present, surfacing referrals higher in the information architecture would always be discoverable and persistent."
-							<h3> "Opportunity space - dashboard"
-							<p> "Although the previous design also had a callout on the dashboard, after conversations with stakeholders, we realized that users spend most of their dormant time within the dashboard, but weren't seeing the current referral callout."
-
-						<div[d:flex fld:column pt:0 w:100%]> # Surfacing referrals on the dashboard
-							<h2> "Surfacing referrals on the dashboard"
-							<p> "We wanted to keep the experience scalable and non intrusive, especially on the dashboard of the product, which lead to us considering the callout. I iterated on the callout that previously existed after feedback from the team, with the goal of making it more prominent."
-							<div[d:vflex d@md:hflex w:100% p:2]> # image-wrapper container
-								# image should have a vflex only container that puts in a caption. 
-								<div[d:vflex w:100% ai:center]> 
-									<img[rd:xl w:100%] src=case-photos.networks-mvp> # w@md used to focus single image in the center for larger screens.
-									<p[c:cool5 fw:300 margin-block:12px]> "Low fidelity design of the callout"
-							<h3> "Selecting the layout"
-							<p> "Our team converged on two layout explorations for where in the interface the callout would be surfaced, keeping in mind the goals we had set."
-							<h3> "Variant 1 - referral callout on sidebar navigation"
-							<div[d:vflex d@md:hflex w:100% p:2]> # image-wrapper container
-								# image should have a vflex only container that puts in a caption. 
-								<div[d:vflex w:100% ai:center]> 
-									<img[rd:xl w:100%] src=case-photos.networks-mvp> # w@md used to focus single image in the center for larger screens.
-									<p[c:cool5 fw:300 margin-block:12px]> "Referral callout shown on sidebar navigation"
-							<div[d:vflex d@md:hflex g:8 w:100% p:4]> # Layout - pros and cons table
-								<div[d:vflex p:4 bg:green4/20 w:100%]>
-									<h3[c:green9 ff:"Geist Mono", monospace]> "Pro ✅"
-									<ul>
-										<li[c:green9]> "Always persistent in navigation."
-								<div[d:vflex p:4 bg:red4/20 w:100%]>
-									<h3[c:red9 ff:"Geist Mono", monospace]> "Cons 🛑"
-									<ul>
-										<li[c:red9]> "Loss of context in other situations of the product- i.e managing a team or evaluating and using filters for the ATS."
-										<li[c:red9]> "Visual dissonance with the existing sidebar."
-										<li[c:red9]> "Engineering resources - Unscalable CSS code to account for various cases in the sidebar."
-							<h3> "Variant 2 - callout as a floating overlay"
-							<div[d:vflex d@md:hflex w:100% p:2]> # image-wrapper container
-								# image should have a vflex only container that puts in a caption. 
-								<div[d:vflex w:100% ai:center]> 
-									<img[rd:xl w:100%] src=case-photos.networks-mvp> # w@md used to focus single image in the center for larger screens.
-									<p[c:cool5 fw:300 margin-block:12px]> "Referral callout as a non-intrusive overlay for users"
-							<div[d:vflex d@md:hflex g:8 w:100% p:4]> # Layout - pros and cons table
-								<div[d:vflex p:4 bg:green4/20 w:100%]>
-									<h3[c:green9 ff:"Geist Mono", monospace]> "Pro ✅"
-									<ul>
-										<li[c:green9]> "Always persistent in navigation."
-								<div[d:vflex p:4 bg:yellow4/20 w:100%]>
-									<h3[c:red9 ff:"Geist Mono", monospace]> "Concerns 🚥"
-									<ul>
-										<li[c:yellow9]> "Potentially easier for users to miss (as users read from left to right)."
-										<li[c:yellow9]> "If a user removes the callout, is there a place for easy access to referrals?"
-							<p[fw:700]> "Considering the user flow diagram above, what would the call out link to? Would it be the existing referral page? Or would we surface a modal?"
-							<p> "After discussing this idea with our product team, we realized that surfacing a modal each time a user clicks on a callout interrupts the flow of a user within the product, while it is too little screen estate to show metrics such as amount of credits earned and number of friends invited."
-							<p> "Therefore, we decided that all touchpoints would lead to the referrals page itself, with that being the users’ intent."
-							<h3> "Final design for entry point"
-							<div[d:vflex d@md:hflex w:100% p:2]> # image-wrapper container
-								# image should have a vflex only container that puts in a caption. 
-								<div[d:vflex w:100% ai:center]> 
-									<img[rd:xl w:100%] src=case-photos.networks-mvp> # w@md used to focus single image in the center for larger screens.
-									<p[c:cool5 fw:300 margin-block:12px]> "Note - Shipped after iterations on both illustrations and copy"
-							<p> "We went ahead with Variant 2 for our first test, due to the engineering constraints brought forward by Chad, as well as our primary goal of keeping the module scalable and consistent across touchpoints."
-
-						<div[d:flex fld:column pt:0 w:100%]> # Surfacing referrals within hiring stages
-							<h2> "Surfacing referrals within hiring stages"
-							<p> "Aiming to surface the option to invite a friend when a user hires, I created some design explorations with the goal of celebrating the users’ success, whilst being in context and not interruptive."
-							<h3> "Variant 1 - Tooltip"
-							<div[d:vflex d@md:hflex w:100% p:2]> # image-wrapper container
-								# image should have a vflex only container that puts in a caption. 
-								<div[d:vflex w:100% ai:center]> 
-									<img[rd:xl w:100%] src=case-photos.networks-mvp> # w@md used to focus single image in the center for larger screens.
-									<p[c:cool5 fw:300 margin-block:12px]> "Exploration with tooltip on the top right containing referral link"
-							<div[d:vflex d@md:hflex g:8 w:100% p:4]> # Layout - pros and cons table
-								<div[d:vflex p:4 rd:lg bg:green4/20 w:100%]>
-									<h3[c:green9 ff:"Geist Mono", monospace]> "Pro ✅"
-									<ul>
-										<li[c:green9]> "Discoverable while taking significantly less screen real estate."
-								<div[d:vflex p:4 rd:lg bg:red4/20 w:100%]>
-									<h3[c:red9 ff:"Geist Mono", monospace]> "Con 🛑"
-									<ul>
-										<li[c:red9]> "Inconsistent with usage of tooltips in other areas of the product as a design pattern."
-							<h3> "Variant 2 - Callout as a floating overlay"
-							<div[d:vflex d@md:hflex w:100% p:2]> # image-wrapper container
-								# image should have a vflex only container that puts in a caption. 
-								<div[d:vflex w:100% ai:center]> 
-									<img[rd:xl w:100%] src=case-photos.networks-mvp> # w@md used to focus single image in the center for larger screens.
-									<p[c:cool5 fw:300 margin-block:12px]> "Exploration with tooltip on the top right containing referral link"
-							<div[d:vflex d@md:hflex g:8 w:100% p:4]> # Layout - pros and cons table
-								<div[d:vflex p:4 rd:lg bg:green4/20 w:100%]>
-									<h3[c:green9 ff:"Geist Mono", monospace]> "Pro ✅"
-									<ul>
-										<li[c:green9]> "Able to discover referral link without clutter in the sidebar."
-								<div[d:vflex p:4 rd:lg bg:red4/20 w:100%]>
-									<h3[c:red9 ff:"Geist Mono", monospace]> "Con 🛑"
-									<ul>
-										<li[c:red9]> "Does this interrupt the flow of work for a user?"
-								<div[d:vflex p:4 rd:lg bg:yellow4/20 w:100%]>
-									<h3[c:red9 ff:"Geist Mono", monospace]> "Concern 🚥"
-									<ul>
-										<li[c:yellow9]> "Could be jarring in a user's current context without any motion or feedback."
-
-							<h3> "Iterating on how the callout is surfaced when a user makes a hire"
-							<p> "With the goal of making the experience contextual and non-intrusive, yet subtly directing attention, we experimented with different ways in which we could utilize motion in the interface. I was lucky to bring some of my knowledge of Framer (legacy), which helped us rapidly explore options."
-							<p[fw:700]> "The use case for these prototypes is when the user first moves a card to the hired section within hiring stages, indicating that a hire has been made."
+									<p[c:cool5 fw:300 margin-block:12px]> "Monetization and features page"
+							<h3> "Pricing page"
+							<p> "I was responsible for implementing the pricing page, as well as the segmented control component between monthly and annual pricing. We implemented the pricing switch and card components with React and Typescript. Since this was not a component that needed dynamic updates, the integration with Astro was a breeze."
 							<div[d:vflex d@md:hflex w:100% p:2]> # vid-wrapper container
 								# image should have a vflex only container that puts in a caption. 
 								<div[d:vflex w:100% ai:center]> 
 									<video[rd:xl w:100%] autoplay muted loop> # w@md used to focus single image in the center for larger screens.
 										<source src="https://chaitanya-portfolio.b-cdn.net/portfolio-2025-image-assets/pagerduty-work/PD-Design-Folder/Iteration-1-prototype.mp4" type="video/mp4">
-									<p[c:cool5 fw:300 margin-block:12px]> "Exploration A - fade in transition"
-							<div[d:vflex d@md:hflex w:100% p:2]> # vid-wrapper container
+									<p[c:cool5 fw:300 margin-block:12px]> "Networks pricing page"
+							<h3> "Optimizing for conversions and booked demos"
+							<p> "I worked with Mark, our CTO to help implement a drop-in widget that could be used anywhere on our site. The widget was a Cal.com integration to directly book a sales call with our CEO Bill, or our COO Jack who was also heading up our sales initiative."
+							<div[d:vflex d@md:hflex w:100% p:2]> # image-wrapper container (2 side-by-side)
 								# image should have a vflex only container that puts in a caption. 
 								<div[d:vflex w:100% ai:center]> 
-									<video[rd:xl w:100%] autoplay muted loop> # w@md used to focus single image in the center for larger screens.
-										<source src="https://chaitanya-portfolio.b-cdn.net/portfolio-2025-image-assets/pagerduty-work/PD-Design-Folder/Iteration-1-prototype.mp4" type="video/mp4">
-									<p[c:cool5 fw:300 margin-block:12px]> "Exploration B - callout is revealed with a motion animation on the x-axis"
-							<div[d:vflex d@md:hflex w:100% p:2]> # vid-wrapper container
+									<img[rd:xl w:100%] src=case-photos.networks-mvp>
+									<p[c:cool5 fw:300 margin-block:12px]> "Booking page, using a modular booking widget integrated with Hubspot and Cal.com"
+								<div[d:vflex w:100% ai:center]> 
+									<img[rd:xl w:100%] src=case-photos.networks-mvp>
+									<p[c:cool5 fw:300 margin-block:12px]> "Drop-in widget on a feature pagepage"
+							<p> "We placed the book demo widget on the features page as well. Our hypothesis here was if users had scrolled all the way down to the features page, we want to minimize clicks to activation. The flexibility of our calendar component enabled us to achieve this, although the widget on this page only contributes to 20% of meetings booked on the site as of writing."
+							<h3> "Supplementing our marketing and sales pipeline with blogs and case studies"
+							<div[d:vflex d@md:hflex w:100% p:2]> # image-wrapper container (2 side-by-side)
 								# image should have a vflex only container that puts in a caption. 
 								<div[d:vflex w:100% ai:center]> 
-									<video[rd:xl w:100%] autoplay muted loop> # w@md used to focus single image in the center for larger screens.
-										<source src="https://chaitanya-portfolio.b-cdn.net/portfolio-2025-image-assets/pagerduty-work/PD-Design-Folder/Iteration-1-prototype.mp4" type="video/mp4">
-									<p[c:cool5 fw:300 margin-block:12px]> "Exploration B - callout is revealed with a motion animation on the x-axis"
-							<p> "We went ahead with the vertical exploration, after auditing other products using referrals, as well as it being not as jarring as coming in from the side, or simply appearing without any particular context"
-						<div[d:flex fld:column pt:0 w:100%]> # Final design of callout module
-							<h2> "Final design of callout module"
-							<p> "I went ahead and iterated on the callout with a copywriter, and worked alongside an illustrator to make the copy and illustrations of the callout contextual for each touchpoint that a user might be a part of during their journey with the product, which was an important goal of the experiment."
+									<img[rd:xl w:100%] src=case-photos.networks-mvp>
+									<p[c:cool5 fw:300 margin-block:12px]> "Blogs page"
+								<div[d:vflex w:100% ai:center]> 
+									<img[rd:xl w:100%] src=case-photos.networks-mvp>
+									<p[c:cool5 fw:300 margin-block:12px]> "How to guides"
+							<p> "Since Minds Networks is a feature rich community product, it was a key marketing goal to establish credibility on the web. To that end, the team had drafted some initial content on community building, community building best practices, as well as onboarding articles. Ryan, our PM and I advocated that hosting the content on our site would boost SEO rankings, as well as serve our sales pipeline as content could ideally be re-used across various channels."
 							<div[d:vflex d@md:hflex w:100% p:2]> # image-wrapper container
 								# image should have a vflex only container that puts in a caption. 
 								<div[d:vflex w:100% ai:center]> 
 									<img[rd:xl w:100%] src=case-photos.networks-mvp> # w@md used to focus single image in the center for larger screens.
-									<p[c:cool5 fw:300 margin-block:12px]> "Finalized copy and layout spec for handoff"
-							<h3> "Demo"
-							<div[d:vflex d@md:hflex w:100% p:2]> # vid-wrapper container
-								# image should have a vflex only container that puts in a caption. 
-								<div[d:vflex w:100% ai:center]> 
-									<video[rd:xl w:100%] autoplay muted loop> # w@md used to focus single image in the center for larger screens.
-										<source src="https://chaitanya-portfolio.b-cdn.net/portfolio-2025-image-assets/pagerduty-work/PD-Design-Folder/Iteration-1-prototype.mp4" type="video/mp4">
-									<p[c:cool5 fw:300 margin-block:12px]> "Experience in staging environment before being shipped"
-
-						<div[d:flex fld:column pt:0 w:100%]> # A place for persistent access to referrals
-							<h2> "A place for persistent access to referrals"
-							<p> "We placed a link within the menu dropdown of the account profile, hypothesizing that surfacing referrals higher in the IA would lead to greater discoverability, and is a persistent area for the user to access the feature from anywhere within the product."
+									<p[c:cool5 fw:300 margin-block:12px]> "Blog article"
+							<p> "These blogs and case studies were also built in a flexible way with Astro, able to be used for more in depth tutorials on setting up a network, or success stories of different clients with Networks. This flexibility allowed us to use this content in our email marketing campaigns, as well as rank in search results."
+							<h3> "Increasing the value of trials"
+							<p> "We identified that of users clicking on trials, either through advertising or organically, and only 38% were completing initial sign ups and sticking around after day 1. This was a key issue. We also identified from research that customers or potential customers who already have a domain in mind was a good heuristic for signal in terms of likelihood to purchase."
+							<p> "Even though our signup and day 1 retention rate was much higher at 85% for contacted clients and prospects, the potential volume of organic and ad-served trials meant that this entry point required focus, and initial efforts on the Networks marketing site has already helped increase the rate to 55%. We could then hypothesize that allowing the user more custom inputs in a frictionless way that makes the network truly theirs before the network gets created, would result in an even higher rate of signup completion and retention beyond day 1."
+							<p> "Armed with the insight that if a customer already had a domain (high signal that they were serious), Mark and I proposed a small A/B test to improve trial conversion rates, with the express goal of leveraging an AI agent our developer, Ben, and Mark had been tinkering on. This agent would have bots create featured accounts, curate a network and seamlessly set up on a custom domain so that a network owner can focus on growing their network and personalizing it, rather than spending time doing busywork."
 							<div[d:vflex d@md:hflex w:100% p:2]> # image-wrapper container
 								# image should have a vflex only container that puts in a caption. 
 								<div[d:vflex w:100% ai:center]> 
 									<img[rd:xl w:100%] src=case-photos.networks-mvp> # w@md used to focus single image in the center for larger screens.
-									<p[c:cool5 fw:300 margin-block:12px]> "When a user hovers over the referral link, now in the account menu"
+									<p[c:cool5 fw:300 margin-block:12px]> "Updated trial experience"
+							<p> "While I was unable to be at the company long enough to share the findings of this experiment, recent updates of the site at https://networks.minds.com/ presumably show that the experiment was successful as an entry point to the product."
 
-						<div[d:flex fld:column pt:0 w:100%]> # Result and Impact
-							<h2> "Result and Impact"
-							<div[d:vflex ai:center rd:xl]> # block-quote
-								<div[d:vflex w:100% p:4 ai:center bd:green4/30 rd:sm]>
-									<h4[c:cool8]> `We hypothesized that if we surface referral options to users at moments of achievement, as well as areas that are discoverable within context, it would allow users to share Wizehire as a product to others within their network more easily.`
 
-							<p[fw:700]> "We also predicted that designing the referral experience across various touchpoints of a user’s journey would lead to a higher number of promoters within the product to send invites."
-							<p> "The experiment was released on August 15th, 2019, with the goal of testing this against the previous referral experience with half of the users in the product"
-							<p> "The experiment was a success, resulting in a relative lift of 20% of existing promoters within 3 weeks of launch. The plan is to launch the experience to all users, and iterate on UI and copy according to analytics data with more users, as well as observe other areas of potential impact within the users' journey."
-							<h3> "Selling design as a collective effort"
-							<p> "As a part of an effort to make design more data informed, I pitched to a marketing engineer, as well as the CTO the benefits of setting up an analytics infrastructure, and we were able to co-ordinate this before the experiment released. Our tracking now includes a detailed breakdown of each elements' action by integrating Segment and Mixpanel."
 
-						<div[d:flex fld:column pt:0 w:100%]> # Next Steps
-							<h2> "Next Steps"
-							<p> "After presenting the project to be shipped, we got feedback from the sales team, who noted that while the subscription and invoice pages within the product aren’t “moments of achievement”, they still show critical information about payments, and seeing the effect of referrals on their bill could nudge them towards referring more friends."
-							<p> "The plan is to set up another growth experiment to see how it would influence the metrics, and I had a chance to work on some early screens of how we can surface referrals within these pages."
-							<div[d:vflex d@md:hflex w:100% p:2]> # image-wrapper container
-								# image should have a vflex only container that puts in a caption. 
-								<div[d:vflex w:100% ai:center]> 
-									<img[rd:xl w:100%] src=case-photos.networks-mvp> # w@md used to focus single image in the center for larger screens.
-									<p[c:cool5 fw:300 margin-block:12px]> "Subscription page"
-							<div[d:vflex d@md:hflex w:100% p:2]> # image-wrapper container
-								# image should have a vflex only container that puts in a caption. 
-								<div[d:vflex w:100% ai:center]> 
-									<img[rd:xl w:100%] src=case-photos.networks-mvp> # w@md used to focus single image in the center for larger screens.
-									<p[c:cool5 fw:300 margin-block:12px]> "Invoices page"
+
+						<div[d:flex fld:column pt:0 w:100%]> # Results and impact
+							<h2> "Results and impact"
+							<a href="https://networks.minds.com/" target="_blank"> "Visit the site here!"
+							<p> "Upon the site's initial launch and tracking metrics over the first 45 days, Minds saw "
+							<ul>
+								<li> "a 45% increase in the number of sales calls, with an average of 3 sales calls booked per day on the website."
+								<li> "a 35% increase in free trials started. Free trials were still an important part of our self-serve sales pipeline, as initiating a trial activates a personalized e-mail campaign, and we aim to book calls with potential clients here to examine a good fit. The average number of trials started was 7 per day."
+							<p> "The initial launch of the site was fairly successful and promises more, with future updates such as the AI agent to spin up a trial, as well as more content and blogs to help push Minds Networks as a credible source in the community space."
+
+						<div[d:flex fld:column pt:0 w:100%]> # Results and impact
+							<h2> "Reflection"
+							<p> "I was extremely grateful to wear both the design and engineering hats on this initiative, as it forced me to design with intention and feasibility top of mind. One aspect of the project that I noticed in hindsight, was that after the first few initial passes at the site from a layout perspective, I designed in the browser more than Figma itself. There were a few reasons for this, as content was constantly being iterated upon, and allowed us to optimize the design of the experience on mobile from the very start. On a personal note, it felt that designing in the browser was a lot faster as we could easily deploy a branch to Vercel, get detailed feedback on interactions / visuals, and iterate. While this is possible in Figma, the low barrier to entry with Astro made iterating in the browser faster, and the feedback we got more tangible, since we were testing with a real web link and content."
+							<p> "Looking back, as both this initiative and the Networks product itself represented a pivot, I would have loved to have a chance to explore, even if it was constrained, a divergent brand direction that would aim to build on the principles of trust and placing power back in the hands of the creator. This would have allowed us to better position our marketing content to create a lasting impression on visitors, but due to immense time constraints, we were unable to do so."
+						# OLD SITE / HELPERS	
 
 						
-						
-						<div[d:flex fld:column pt:0 w:100%]> # Reflections
-							<h2> "Reflections"
-							<p> "Being my first project focused on growth, I realized that it can be misleading and unsustainable to prefer short-term monetization instead of long term value, which is why it is so important to be data informed, rather than data driven."
-							<p> "Align with stakeholders early and often - This allowed me to have a good cadence in terms of feedback, as well as consider engineering constraints and align on the problem at hand."
-							<p> "Data informed - Designing for growth leans heavily towards experimentation, and it is absolutely critical to set up metrics of success to validate our hypothesis, enabling the team to learn quickly."
-							<p> "Design with the user’s journey in mind - When thinking about the long term, I found earlier on that we were experimenting to optimize a moment in the user’s journey. Instead, focusing on the user’s journey throughout the product led us to identify other areas of impact, as well as design the referral experience in a holistic manner."
-
+						<h3[fw:400]> "Thank you so much for reading! If you have any questions or wanted to ask more about the project, don't hesitate to reach out on my email at chaitanyaprashant@gmail.com"
 
 
 			<stacked-grid-container[my:12 pb:120px]> # footer container?
@@ -373,57 +246,3 @@ export default tag NetworksWebsitePage
 						<icon source=instagram>
 						<icon source=music>
 							
-
-						### 
-						Page layout helpers. 
-						Comment in this block after done using.	
-						<h1[c:red4]> "LAYOUT HELPERS and more"
-						
-						# Layout - heading, block quote / statement and body
-						<div[d:vflex w:100%]>
-							<h2> "This is a title"
-							<div[d:vflex ai:center rd:xl]>
-								<div[d:vflex w:100% p:4 ai:center bd:green4/30 rd:sm]>
-									<h3[c:cool8]> "Quote-title"
-									<p[c:cool8]> `"this is a block quote"`
-
-						<div[d:flex fld:column pt:0 w:100%]> # Actual content div
-							<h2> "Layout -- 1 images and caption."
-							<p> "Can use this scalably. Port layout to components but this is fine for now"
-							<div[d:vflex d@md:hflex w:100% p:2]> # image-wrapper container
-								# image should have a vflex only container that puts in a caption. 
-								<div[d:vflex w:100% ai:center]> 
-									<img[rd:xl w:100%] src=case-photos.networks-mvp> # w@md used to focus single image in the center for larger screens.
-									<p[c:cool5 fw:300 margin-block:12px]> "image caption"
-
-
-						# Layout - pros and cons table
-						<div[d:vflex d@md:hflex g:8 w:100% p:4]>
-							<div[d:vflex p:4 bg:green4/20 w:100%]>
-								<h3[c:green9 ff:"Geist Mono", monospace]> "Pros ✅"
-								<p[c:green9]> "example"
-							<div[d:vflex p:4 bg:red4/20 w:100%]>
-								<h3[c:red9 ff:"Geist Mono", monospace]> "Cons 🛑"
-								<p[c:red9]> "example"
-
-
-						<div[d:flex fld:column pt:0 w:100%]> # Actual content div
-							<h2> "Layout -- 2 images and caption."
-							<p> "Can use this scalably. Port layout to components but this is fine for now"
-							<div[d:vflex d@md:hflex w:100% p:2]> # image-wrapper container
-								# image should have a vflex only container that puts in a caption. 
-								<div[d:vflex w:100% ai:center]> 
-									<img[rd:xl w:100%] src=case-photos.networks-mvp>
-									<p[c:cool5 fw:300 margin-block:12px]> "image caption"
-								<div[d:vflex w:100% ai:center]> 
-									<img[rd:xl w:100%] src=case-photos.networks-mvp>
-									<p[c:cool5 fw:300 margin-block:12px]> "image caption"
-
-						# Layout - heading, text
-						<div[d:flex fld:column pt:0 w:100%]> # Actual content div
-							<h2> "Introduction"
-							<p> "As a UX design intern at Pagerduty, I was tasked with designing a way to view administrator and team based data in a holistic way, so that incident managers could mane decisions with more confidence."
-							
-
-
-						### 

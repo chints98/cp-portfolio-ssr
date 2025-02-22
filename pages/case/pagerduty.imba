@@ -22,7 +22,7 @@ const case-photos = {
 
 
 export default tag PagerdutyCasePage 
-	prop title\string = "Case - Chaitanya Prashant"
+	prop title\string = "Chaitanya Prashant - Pagerduty teams internship"
 	# top level // local styles. Put typography based styles here as well (inline other custom ones)
 	css mih:100vh h:100% bg:white e:400ms # root element / page
 	css .case-content pt:8 w:100% d:flex fld:column ai:center ai@md:flex-start c:cool9
@@ -33,8 +33,6 @@ export default tag PagerdutyCasePage
 			<Navbar activeTab="/pagerduty">
 		<page-layout>
 			<case-image-hero[hue:green]>
-				<div[d:flex fld:column ai:center w:100% p:2]>
-					<img[rd:xl w:100% maw@md:60%] src=case-photos.pagerduty-teams>
 				<div[d:flex fld:column ai:center w:fit-content p:2]>
 					# inner div for tags
 					<h2[c:hue9 fw:500 lh:auto margin-block:2px]> "Pagerduty teams internship"
@@ -42,22 +40,24 @@ export default tag PagerdutyCasePage
 						<chip> <span[c:hue9 fs:sm- fw:400]> "Summer 2018"
 						<chip> <span[c:hue9 fs:sm- fw:400]> "Pagerduty"
 						<chip> <span[c:hue9 fs:sm- fw:400]> "UX Design"
+				<div[d:flex fld:column ai:center w:100% p:2]>
+					<img[rd:xl w:100% maw@md:40%] src=case-photos.pagerduty-teams>
 
 			<stacked-grid-container>
 				<div[d:flex fld:column ai:center ai@md:flex-start maw:960px]> # case container. Use border to debug. Added max-width 960px here for larger screens 
 					<div[d:flex w:100% rd:xl fld:column fld@md:row ai:flex-start jc:space-around]> # div for project overview?
-						<div[d:flex fld:column w:100% flw:wrap ai:flex-start]>
+						<div[d:flex fld:column px:2 w:100% flw:wrap ai:center]>
 							<h3> "Overview"
-							<span> "Redesigning PagerDuty's teams configuration feature to help administrators make triaged incident management decisions with more confidence."
+							<span[ta:center]> "Redesigning PagerDuty's teams configuration feature to help administrators make incident management decisions with more confidence."
 							<h3> "Role"
-							<span> "Designer working in a cross functional product team"
-						<div[d:flex fld:column w:100% flw:wrap ai:flex-start]>
+							<span[ta:center]> "Designer working in a cross functional product team"
+						<div[d:flex fld:column w:100% flw:wrap ai:center]>
 							<h3> "Timeline"
 							# <chip[hue:cool]> <span[c:hue9 fs:sm- fw:400]> "4 weeks"
-							<span> "Summer 2018 - 4 weeks"
-						<div[d:flex fld:column w:100% flw:wrap ai:flex-start]>
+							<span[ta:center]> "Summer 2018 - 4 weeks"
+						<div[d:flex fld:column w:100% flw:wrap ai:center]>
 							<h3> "Responsibilities"
-							<span> "Design research, interaction and visual design, and product thinking."
+							<span[ta:center]> "Design research, interaction and visual design, and product thinking."
 							<h3> "Team"
 							<ul>
 								<li> "Chaitanya Prashant - Design"
@@ -81,7 +81,7 @@ export default tag PagerdutyCasePage
 						<div[d:flex fld:column pt:0 w:100%]> # problem section
 							<h2> "Problem"
 							<p> "Team administrators are unable to view and edit, at a macro level, what users and objects are part of a parent team’s sub teams, causing confusion in the incident management process."
-							<p> "Team administrators are unable to view and edit, at a macro level, what users and objects are part of a parent team’s sub teams, causing confusion in the incident management process."
+							<p> "This caused team managers and administrators to start configuring teams by Creating a team or subteam. -> going to an object tab (for example: escalation policies) -> configuring or adding that object to a specific team, or multiple teams from there."
 							<div[d:vflex d@md:hflex w:100% p:2]> # image-wrapper container
 								# image should have a vflex only container that puts in a caption. 
 								<div[d:vflex w:100% ai:center]> 
@@ -203,9 +203,9 @@ export default tag PagerdutyCasePage
 							<p> "The two data tables in the “sub teams and parent team” view cause cognitive overload with admins not being able to focus on two tables at the same time, detracting from our user’s intent to make decisions quickly."
 							<p> "Lack of search bar in all sections left users confused, consistency issue which can potentially hinder experiences."
 							<p> "Information felt cluttered within data tables - “I’m looking at too much here, how am I supposed to parse through this?”- SRE at client company (Cisco)."
-							<div[d:vflex ai:center rd:xl]> # block-quote
+							<div[d:vflex ai:center py:4 rd:xl]> # block-quote
 								<div[d:vflex w:100% p:4 ai:center bd:green4/30 rd:sm]>
-									<h4[c:cool8]> `How might we better surface information in data tables for the 'Subteam and Parent team view?`
+									<h4[c:cool8 ta:center]> `How might we better surface information in data tables for the 'Subteam and Parent team view?`
 
 						<div[d:flex fld:column pt:0 w:100%]> # Design decisions
 							<h2> "Iteration 2"

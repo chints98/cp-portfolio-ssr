@@ -22,7 +22,7 @@ const case-photos = {
 
 
 export default tag WizehireCasePage 
-	prop title\string = "Case - Chaitanya Prashant"
+	prop title\string = "Chaitanya Prashant - Wizehire product design internship"
 	# top level // local styles. Put typography based styles here as well (inline other custom ones)
 	css mih:100vh h:100% bg:white e:400ms # root element / page
 	css .case-content pt:8 w:100% d:flex fld:column ai:center ai@md:flex-start c:cool9
@@ -32,9 +32,7 @@ export default tag WizehireCasePage
 		<div[pos:fixed miw:100% zi:10000 bottom:64px d:flex jc:center rd:999px]>
 			<Navbar activeTab="/wizehire-growth">
 		<page-layout>
-			<case-image-hero[hue:green]>
-				<div[d:flex fld:column ai:center w:100% p:2]>
-					<img[rd:xl w:100% maw@md:60%] src=case-photos.pagerduty-teams>
+			<case-image-hero[hue:lime]>
 				<div[d:flex fld:column ai:center w:fit-content p:2]>
 					# inner div for tags
 					<h2[c:hue9 fw:500 lh:auto margin-block:2px]> "Designing for growth at Wizehire"
@@ -42,22 +40,24 @@ export default tag WizehireCasePage
 						<chip> <span[c:hue9 fs:sm- fw:400]> "Summer 2019"
 						<chip> <span[c:hue9 fs:sm- fw:400]> "Wizehire"
 						<chip> <span[c:hue9 fs:sm- fw:400]> "Product design"
+				<div[d:flex fld:column ai:center w:100% p:2]>
+					<img[rd:xl w:100% maw@md:40%] src=case-photos.wizehire-growth>
 
 			<stacked-grid-container>
 				<div[d:flex fld:column ai:center ai@md:flex-start maw:960px]> # case container. Use border to debug. Added max-width 960px here for larger screens 
 					<div[d:flex w:100% rd:xl fld:column fld@md:row ai:flex-start jc:space-around]> # div for project overview?
-						<div[d:flex fld:column w:100% flw:wrap ai:flex-start]>
+						<div[d:flex fld:column w:100% px:2 flw:wrap ai:center]>
 							<h3> "Overview"
-							<span> "Designing a new referral experience within the Wizehire ATS to increase new user growth and aid monetization."
+							<span[ta:center]> "Designing a new referral experience within the Wizehire ATS to increase new user growth and aid monetization."
 							<h3> "Role"
-							<span> "Lead designer on a cross functional team."
-						<div[d:flex fld:column w:100% flw:wrap ai:flex-start]>
+							<span[ta:center]> "Lead designer on a cross functional team."
+						<div[d:flex fld:column w:100% flw:wrap ai:center]>
 							<h3> "Timeline"
 							# <chip[hue:cool]> <span[c:hue9 fs:sm- fw:400]> "4 weeks"
-							<span> "Summer 2019 - 4 weeks"
-						<div[d:flex fld:column w:100% flw:wrap ai:flex-start]>
+							<span[ta:center]> "Summer 2019 - 4 weeks"
+						<div[d:flex fld:column w:100% flw:wrap ai:center]>
 							<h3> "Responsibilities"
-							<span> "Design research, interaction and visual design, and product thinking."
+							<span[ta:center]> "Design research, interaction and visual design, and product thinking."
 							<h3> "Team"
 							<ul>
 								<li> "Chaitanya Prashant - Design"
@@ -107,7 +107,7 @@ export default tag WizehireCasePage
 									<p[c:cool5 fw:300 margin-block:12px]> "Referral callout surfaced on the dashboard"
 								<div[d:vflex w:100% ai:center]> 
 									<img[rd:xl w:100%] src=case-photos.networks-mvp>
-									<p[c:cool5 fw:300 margin-block:12px]> "Legacy referrals page that is shown after clicking on the callout link"
+									<p[c:cool5 fw:300 margin-block:12px]> "Legacy referrals page"
 							<p> "To invite a friend, a user can click on the link in the call-out, but it leads to the legacy referrals page, whilst the product’s own referrals page is within settings."
 							<p> "This inconsistent experience can lead to a lack of context and trust in certain situations, with a lot of users being confused as to why they were led to a different looking product."
 							<p> "Another problem we identified was the lack of visibility for the referrals program, as it was only accessible with a small call-out in the sidebar navigation."
@@ -136,9 +136,9 @@ export default tag WizehireCasePage
 
 						<div[d:flex fld:column pt:0 w:100%]> # Goals section
 							<h2> "Goals"
-							<div[d:vflex ai:center rd:xl]> # block-quote
+							<div[d:vflex ai:center py:4 rd:xl]> # block-quote
 								<div[d:vflex w:100% p:4 ai:center bd:green4/30 rd:sm]>
-									<h4[c:cool8]> `What is the value add for the user and the business?`
+									<h4[c:cool8 ta:center]> `What is the value add for the user and the business?`
 							<h3> "Wizehire Goals"
 							<ul>
 								<li> "Make it easier for Wizehire users who value the product to be able to share it with friends and their network, and retain these users."
@@ -325,9 +325,9 @@ export default tag WizehireCasePage
 
 						<div[d:flex fld:column pt:0 w:100%]> # Result and Impact
 							<h2> "Result and Impact"
-							<div[d:vflex ai:center rd:xl]> # block-quote
+							<div[d:vflex ai:center py:4 rd:xl]> # block-quote
 								<div[d:vflex w:100% p:4 ai:center bd:green4/30 rd:sm]>
-									<h4[c:cool8]> `We hypothesized that if we surface referral options to users at moments of achievement, as well as areas that are discoverable within context, it would allow users to share Wizehire as a product to others within their network more easily.`
+									<h4[c:cool8 ta:center]> `We hypothesized that if we surface referral options to users at moments of achievement, as well as areas that are discoverable within context, it would allow users to share Wizehire as a product to others within their network more easily.`
 
 							<p[fw:700]> "We also predicted that designing the referral experience across various touchpoints of a user’s journey would lead to a higher number of promoters within the product to send invites."
 							<p> "The experiment was released on August 15th, 2019, with the goal of testing this against the previous referral experience with half of the users in the product"

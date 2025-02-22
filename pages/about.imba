@@ -31,7 +31,7 @@ const grid-photos = {
 
 
 export default tag AboutPage
-	prop title\string = "About - Chaitanya Prashant"
+	prop title\string = "Chaitanya Prashant - About"
 	css mih:100vh h:100% bg:white# root element / page
 	css .hero-content maw:960px pt:8 w:100% d:flex fld:column ai:center ai@md:flex-start c:cool9
 	<self>

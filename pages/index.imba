@@ -72,7 +72,7 @@ export default tag HomePage
 				<project-card-case[hue:indigo] 
 				link
 				src=project-photos.networks-website
-				case-link="/case/pagerduty.html"
+				case-link="/case/networks-website.html"
 				year="2024" 
 				company="Minds" 
 				role="Design engineering" 
@@ -81,16 +81,16 @@ export default tag HomePage
 				>
 				<project-card-case[hue:sky] 
 				src=project-photos.networks-mvp
-				case-link="/case/pagerduty.html"
+				case-link="/case/networks-product.html"
 				year="2023-24" 
-				company="Product design" 
-				role="Design engineering"
+				company="Minds" 
+				role="Product design"
 				description='Discovery, protototyping and design for Minds Networks, a SaaS allowing customers to create their very own social network and generate revenue. Signed 20 new business clients across industries, with a focus on independent media.' 
 				title='Minds Networks'
 				>
 				<project-card-case[hue:amber] 
 				src=project-photos.minds-design-system
-				case-link="/case/pagerduty.html"
+				case-link="/case/minds-design-system.html"
 				year="2022-23" 
 				company="Minds" 
 				role="Design systems"
@@ -100,7 +100,7 @@ export default tag HomePage
 
 				<project-card-case[hue:purple] 
 				src=cadence-asset
-				case-link="/case/pagerduty.html"
+				case-link="/case/curology-cadence.html"
 				year="2022-23" 
 				company="Curology" 
 				role="Design systems"
@@ -110,7 +110,7 @@ export default tag HomePage
 				
 				<project-card-case[hue:lime] 
 				src=project-photos.wizehire-growth
-				case-link="/case/pagerduty.html"
+				case-link="/case/wizehire-growth.html"
 				year="2022-23" 
 				company="Wizehire" 
 				role="Growth design"

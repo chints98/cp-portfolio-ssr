@@ -67,8 +67,13 @@ def assemblePageInLayout page, stylesheetPath, javascriptPath
 const titleMap = {
 	"index.html": "Chaitanya Prashant",
 	"about.html": "Chaitanya Prashant - About",
-	"nested/nested.html": "Chaitanya Prashant - Nested"
-	"case/pagerduty.html": " Chaitanya Prashant - Pagerduty teams internship"
+	"nested/nested.html": "Chaitanya Prashant - Nested",
+	"case/pagerduty.html": " Chaitanya Prashant - Pagerduty teams internship",
+	"case/curology-cadence.html": "Chaitanya Prashant - Curology's subscription frequency",
+	"case/curology-misc.html": "Chaitanya Prashant - Additional work at Curology",
+	"case/networks-product.html": "Chaitanya Prashant - Designing Minds Networks",
+	"case/networks-website.html": "Chaitanya Prashant - Design and engineering for the Minds Networks website",
+	"case/minds-design-system.html": "Chaitanya Prashant - Minds design system",
 }
 
 
